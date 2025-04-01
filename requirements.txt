@@ -1,0 +1,7 @@
+numpy<2.0
+fastapi
+uvicorn
+pillow
+transformers
+docling-core
+python-multipart
