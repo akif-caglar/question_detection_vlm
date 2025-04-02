@@ -19,7 +19,7 @@ This repository contains a FastAPI application that processes images using the S
 
 1.  **Run the Container (GPU):**
     ```bash
-    docker run --gpus all -p 8000:8000 q-detect-apii
+    docker run --gpus all -p 8000:8000 q-detect-api
     ```
 
 ## Using the API
@@ -50,4 +50,3 @@ This endpoint accepts an image file as input, processes it to detect question re
 **Testing:**
 ```bash
     python test.py
-    ```
